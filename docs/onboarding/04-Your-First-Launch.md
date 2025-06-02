@@ -38,6 +38,10 @@ You should see ```voynich-mongo``` in the list.
 > 
 > ```docker stop voynich-mongo```
 
+> 💡 To start it again:
+> 
+> ```docker start voynich-mongo```
+
 > 💡 To remove it completely:
 > 
 > ```docker rm voynich-mongo```
