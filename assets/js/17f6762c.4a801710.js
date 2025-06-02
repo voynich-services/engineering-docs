@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkvoynich_docs=self.webpackChunkvoynich_docs||[]).push([["947"],{1910:function(e){e.exports=JSON.parse('{"metadata":{"permalink":"/engineering-docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
