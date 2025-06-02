@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Voynich Services',
-  tagline: 'Voynich Services Docs for Engineering team',
+  title: 'Engineering at Voynich Services',
+  tagline: 'Your go-to docs for building and scaling at Voynich',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
