@@ -54,7 +54,7 @@ Follow our clean code guidelines:
 - Clear and readable logic.
 - Remove unused code, logs, or comments before committing.
 
-<!-- The chapter titled [Clean Code Guidelines](./06-Clean-Code-Guidelines.md) will walk you through these expectations in detail. -->
+The chapter titled [Clean Code Guidelines](./06-Clean-Code-Guidelines.md) will walk you through these expectations in detail.
 
 ## When You're Done
 
