@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://voynich-services.github.io/engineering-docs/blog</id>
+    <title>Engineering at Voynich Services Blog</title>
+    <updated>2025-06-02T10:30:24.858Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://voynich-services.github.io/engineering-docs/blog"/>
+    <subtitle>Engineering at Voynich Services Blog</subtitle>
+    <icon>https://voynich-services.github.io/engineering-docs/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[helloarticle]]></title>
+        <id>https://voynich-services.github.io/engineering-docs/blog/helloarticle</id>
+        <link href="https://voynich-services.github.io/engineering-docs/blog/helloarticle"/>
+        <updated>2025-06-02T10:30:24.858Z</updated>
+        <summary type="html"><![CDATA[facebook:]]></summary>
+        <content type="html"><![CDATA[<p>facebook:
+label: Facebook
+permalink: /facebook
+description: Facebook tag description</p>
+<p>hello:
+label: Hello
+permalink: /hello
+description: Hello tag description</p>
+<p>docusaurus:
+label: Docusaurus
+permalink: /docusaurus
+description: Docusaurus tag description</p>
+<p>hola:
+label: Hola
+permalink: /hola
+description: Hola tag description</p>]]></content>
+    </entry>
+</feed>

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkvoynich_docs=self.webpackChunkvoynich_docs||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"helloarticle","permalink":"/engineering-docs/blog/helloarticle","unlisted":false,"date":"2025-06-02T10:30:24.858Z"}]}')}}]);
