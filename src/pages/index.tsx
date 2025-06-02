@@ -29,12 +29,25 @@ function HomepageHeader() {
 }
 
 export default function Home(): ReactNode {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Internal engineering documentation for onboarding, architecture, and clean development practices.">
       <HomepageHeader />
+      <main>
+        <section className="container margin-top--lg">
+          <div className="text--center">
+            <Heading as="h2">Welcome to the Engineering Docs 📘</Heading>
+            <p className="padding-horiz--md">
+              This space is your starting point as an intern or team member at <strong>Voynich Services</strong>. Whether you're onboarding, debugging, or exploring the codebase — you're in the right place.
+            </p>
+            <p>
+              We use the <strong>FARM stack</strong>: FastAPI, React, and MongoDB. You'll find setup guides, clean code principles, and tasks designed to help you get productive from day one.
+            </p>
+          </div>
+        </section>
+      </main>
     </Layout>
   );
 }
