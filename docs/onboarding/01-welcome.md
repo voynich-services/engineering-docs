@@ -32,11 +32,21 @@ This stack allows us to build robust APIs, dynamic user interfaces, and flexible
 
 ---
 
+## 📋 Prerequisites
+
+Before you start, make sure you have:
+- A computer with Windows 10+, macOS 10.15+, or a modern Linux distribution
+- Administrator/sudo privileges to install software
+- A GitHub account (for accessing the project repository)
+- Stable internet connection
+
+---
+
 ## ✅ What You'll Do This Week
 
 By following this documentation, you'll:
 
-1. Set up the backend, frontend, and database on your machine.
+1. Set up your dev environment for running the backend, frontend, and database on your machine.
 2. Run the full-stack project locally.
 3. Make your first contribution by implementing a simple endpoint or UI feature.
 4. Submit a pull request and go through our review process.
@@ -45,7 +55,7 @@ By following this documentation, you'll:
 
 ## 💬 Need Help?
 
-If you run into any issues, don’t hesitate to ask! You can reach out on Slack, feel free to message your mentor or anyone from the engineering team directly. We’re here to support you.
+If you run into any issues, don’t hesitate to ask! You can reach out on [Slack](https://join.slack.com/t/voynichservices/shared_invite/zt-37hlnp6xx-STmErKT7cCG6TcxEihrf~w), feel free to message your mentor or anyone from the engineering team directly. We’re here to support you.
 
 
 ---

@@ -10,41 +10,64 @@ Welcome to your first task as part of the Voynich Services Quotes project! This 
 ---
 
 
-## 1. Run the Database
+## 1. Run & Connect to the Database
+
+### 1.1 Run the Database inside docker container:
 
 In this project, MongoDB runs in a Docker container.
 
-You already installed Docker and downloaded the MongoDB image in the environment setup.
+You already installed Docker in the environment setup.
 
 Now it's time to run the container.
 
 Run this command in your terminal:
 
-```docker run --name voynich-mongo -d -p 27017:27017 mongo```
+   ```bash
+   docker run --name voynich-mongo -d -p 27018:27017 mongo
+   ```
 
 This will:
 
 - Run a MongoDB container in the background.
 - Name it ```voynich-mongo``` (you can rename if you want).
-- Map port ```27017``` from the container to your local machine (so you can connect via GUI tools like MongoDB Compass or NoSQLBooster).
+- Map port ```27018``` on your local machine to port ```27017``` inside the container (so you can connect via GUI tools like MongoDB Compass).
 
 To confirm it's running:
 
-```docker ps```
+   ```bash
+   docker ps
+   ```
 
 You should see ```voynich-mongo``` in the list.
 
 > 💡 To stop the database:
 > 
-> ```docker stop voynich-mongo```
+> 
+```bash
+docker stop voynich-mongo
+```
 
 > 💡 To start it again:
 > 
-> ```docker start voynich-mongo```
+> 
+```bash
+docker start voynich-mongo
+```
 
 > 💡 To remove it completely:
 > 
-> ```docker rm voynich-mongo```
+> 
+```bash
+docker rm voynich-mongo
+```
+
+### 1.2 Connect to the Database with MongoDB Compass:
+
+To connect to the Docker MongoDB instance:
+
+1. Open MongoDB Compass
+2. Use this connection string: ```mongodb://localhost:27018```
+3. Click "Connect"
 
 ## Running the Backend
 
@@ -96,7 +119,7 @@ This will start the React app at `http://localhost:5173` (or the port displayed 
 
 ---
 
-## What’s next?
+## What's next?
 
 Once both frontend and backend are running:
 

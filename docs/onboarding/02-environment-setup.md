@@ -1,22 +1,17 @@
 ---
 sidebar_label: Environment Setup
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 # Environment Setup
 
-This guide will walk you through setting up your development environment for the **Quotes Project**. It includes instructions for both **Windows** and **macOS/Linux** users.
+This guide will walk you through setting up your development environment for the [**Quotes Project**](https://github.com/voynich-services/quotes-project). It includes instructions for both **Windows** and **macOS/Linux** users.
+
+This environment setup is designed to be general, you'll do the same for your future internship projects.
 
 ---
 
-## Prerequisites
-
-- A modern operating system: Windows 10/11, macOS, or Linux.  
-- Administrative privileges to install software.  
-- Basic familiarity with the command line/terminal.  
-- A stable internet connection.
-
-### Dev Tools
+## Install Dev Tools
 We recommend using the following tools for an optimal development and debugging experience:
 
 - **Backend:** [PyCharm Community Edition (free)](https://www.jetbrains.com/pycharm/download/), highly recommended for Python and FastAPI debugging.
@@ -41,7 +36,7 @@ Verify installation:
 
 ---
 
-## Install Python and uv (Virtual Env + Package Manager)
+## Install Python and uv
 
 ### Python
 
@@ -55,13 +50,29 @@ Verify:
 
 ### uv
 
-Install `uv`, a modern package/dependency manager:
+Install `uv`, a modern Python package and dependency manager. Learn more at [uv documentation](https://docs.astral.sh/uv/).
 
-- **Universal method:**
-  `curl -LsSf https://astral.sh/uv/install.sh | sh`
+**Installation options:**
 
-Verify:
-`uv --version`
+- **Universal method (recommended):**
+  ```bash
+  curl -LsSf https://astral.sh/uv/install.sh | sh
+  ```
+
+- **Windows PowerShell:**
+  ```powershell
+  powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+  ```
+
+- **Alternative (if you already have Python/pip):**
+  ```bash
+  pip install uv
+  ```
+
+Verify installation:
+```bash
+uv --version
+```
 
 ---
 
@@ -78,6 +89,18 @@ Verify:
 
 ## Install Docker (for MongoDB)
 
+### Why Docker for MongoDB?
+
+We use Docker for MongoDB because it:
+- Ensures everyone uses the same MongoDB version
+- Avoids conflicts with existing MongoDB installations
+- Makes it easy to start fresh (just remove the container)
+- Simplifies the setup process
+
+If you prefer to install MongoDB directly, you can, but Docker is recommended for consistency.
+
+### Install Docker
+
 Follow installation steps based on your platform:
 
 - **Windows & macOS:** [https://www.docker.com/products/docker-desktop/](https://www.docker.com/products/docker-desktop/)
@@ -90,9 +113,13 @@ Useful: [Docker Cheat Sheet](https://github.com/wsargent/docker-cheat-sheet), [B
 
 ---
 
-## Install a GUI for MongoDB (Optional)
+## Install MongoDB Compass
 
-To navigate and explore your MongoDB data easily, install [NoSQLBooster](https://nosqlbooster.com/) or a similar tool like [MongoDB Compass](https://www.mongodb.com/products/compass).
+To navigate and explore your MongoDB data easily, install [MongoDB Compass](https://www.mongodb.com/products/compass) - MongoDB's official GUI tool.
+
+Download from: https://www.mongodb.com/try/download/compass
+
+This is the official MongoDB GUI and provides the best experience for viewing and managing your data.
 
 ---
 
@@ -107,42 +134,52 @@ cd quotes-project
 
 ## Backend Setup
 
-1. Navigate to the backend folder:
-   `cd backend`
+1. Navigate to the backend folder (or open it in PyCharm):
+   ```bash
+   cd backend
+   ```
 
-2. Create a virtual environment with `uv` and activate it:
+2. Set up the project environment:
+   ```bash
+   uv sync --extra dev
+   ```
 
-   - **Windows (CMD):**
-     `uv venv .venv && .venv\Scripts\activate.bat`
-   - **macOS/Linux:**
-     `uv venv .venv && source .venv/bin/activate`
+3. Set up `pre-commit`:
+   ```bash
+   pre-commit install
+   ```
 
-3. Install backend dependencies:
-   `uv pip install -r requirements.txt`
-
-4. Install `ruff` and `pre-commit`:
-   `uv pip install ruff pre-commit`
-
-5. Set up `pre-commit`:
-   `pre-commit install`
-
-6. Create a `.env` file from the template and configure it:
-   `cp .env.example .env`
-   _(Use `copy` on Windows: `copy .env.example .env`)_
+4. Create the `.env` file from the template:
+   ```bash
+   cp .env.example .env
+   ```
+   If the above command didn't work on Windows _(Use `copy`)_:
+   ```bash
+   copy .env.example .env
+   ```
 
 ---
 
 ## Frontend Setup
 
-1. Navigate to the frontend folder:
-   `cd frontend`
+1. Navigate to the frontend folder (or open it in VSCode):
+   ```bash
+   cd frontend
+   ```
 
 2. Install frontend dependencies:
-   `npm install`
+   ```bash
+   npm install
+   ```
 
-3. Create a `.env` file:
-   `cp .env.example .env`
-   _(Use `copy` on Windows)_
+3. Create the `.env` file from the template:
+   ```bash
+   cp .env.example .env
+   ```
+   If the above command didn't work on Windows _(Use `copy`)_:
+   ```bash
+   copy .env.example .env
+   ```
 
 ---
 
@@ -167,8 +204,6 @@ Feel free to use other IDEs or debugging tools you prefer — the important part
 
 ## Additional Tools (Optional)
 
-- [NoSQLBooster](https://nosqlbooster.com/) or [MongoDB Compass](https://www.mongodb.com/products/compass) to explore the database visually
 - [Postman](https://www.postman.com/) for testing APIs manually
-- [HTTPie](https://httpie.io/) for a terminal-based API testing experience
 
 ---
