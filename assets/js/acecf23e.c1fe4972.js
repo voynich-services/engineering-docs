@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkvoynich_docs=self.webpackChunkvoynich_docs||[]).push([["627"],{7548:function(e){e.exports=JSON.parse('{"blogBasePath":"/engineering-docs/blog","blogTitle":"Blog","authorsListPath":"/engineering-docs/blog/authors"}')}}]);
