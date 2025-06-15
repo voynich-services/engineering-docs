@@ -62,7 +62,7 @@ If you run into any issues, don’t hesitate to ask! You can reach out on [Slack
 
 ## 👉 Ready?
 
-Great! Head over to the [Project Overview](./02-project-overview.md) to get a sense of how everything fits together.
+Great! Head over to the [Project Overview](./03-project-overview.md) to get a sense of how everything fits together.
 
 Welcome again — we’re glad you’re here.
 

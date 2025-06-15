@@ -49,7 +49,7 @@ We use:
 - `ruff` and `pre-commit` for backend Python formatting.
 - `eslint` and `prettier` for frontend formatting.
 
-Make sure to install and run pre-commit hooks (already explained in `02-Environment-Setup.md`).
+Make sure to install and run pre-commit hooks (already explained in [Environment Setup](./02-environment-setup.md)).
 
 ---
 

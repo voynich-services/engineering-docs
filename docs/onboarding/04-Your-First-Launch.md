@@ -135,7 +135,7 @@ Once both frontend and backend are running:
 - Keep your virtual environment activated while working on the backend.
 - Open the browser developer tools and React DevTools to help debug frontend issues.
 - For backend debugging, PyCharm is recommended but feel free to use your preferred IDE.
-- Review the Clean-Code-Guidelines.md document for best practices on writing clean, maintainable code.
+- Review the [Clean Code Guidelines](./06-Clean-Code-Guidelines.md) document for best practices on writing clean, maintainable code.
 
 ---
 
