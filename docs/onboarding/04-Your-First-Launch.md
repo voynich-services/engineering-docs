@@ -71,7 +71,12 @@ To connect to the Docker MongoDB instance:
 
 ## Running the Backend
 
-1. **Activate your Python virtual environment**
+1. **Navigate to the backend folder:**
+   ```bash
+   cd backend
+   ```
+
+2. **Activate your Python virtual environment**
 
 - Windows (CMD):
 ```
@@ -83,7 +88,7 @@ To connect to the Docker MongoDB instance:
 source .venv/bin/activate
 ```
 
-2. **Run the backend**
+3. **Run the backend**
 
 Run it using your IDE (PyCharm) or through the command:
 ```
@@ -92,7 +97,7 @@ python app/main.py
 
 You should see uvicorn start up with logs indicating the server is running at `http://localhost:8000`.
 
-3. **Verify backend is running**
+4. **Verify backend is running**
 
 Open your browser or use a tool like `curl` to access:
 
