@@ -101,7 +101,11 @@ const config: Config = {
           items: [
             {
               label: 'Onboarding',
-              to: '/docs/category/first-week',
+              to: '/docs/category/onboarding',
+            },
+            {
+              label: 'Automation Challenge',
+              to: '/docs/category/automation-challenge',
             },
           ],
         }
