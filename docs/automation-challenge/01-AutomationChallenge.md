@@ -1,6 +1,7 @@
 ---
 sidebar_label: Project requirements
 sidebar_position: 1
+draft: true
 ---
 
 # 🤖 Automation Challenge
