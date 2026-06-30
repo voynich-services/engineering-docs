@@ -5,7 +5,7 @@ sidebar_position: 2
 
 # Environment Setup
 
-This guide will walk you through setting up your development environment for the [**Quotes Project**](https://github.com/voynich-services/quotes-project). It includes instructions for both **Windows** and **macOS/Linux** users.
+This guide will walk you through setting up your development environment for the [**Quotes Project**](https://github.com/Voynich-Internship/quotes-project). It includes instructions for both **Windows** and **macOS/Linux** users.
 
 This environment setup is designed to be general, you'll do the same for your future internship projects.
 
@@ -126,7 +126,7 @@ This is the official MongoDB GUI and provides the best experience for viewing an
 ## Clone the Project Repository
 
 ```bash
-git clone https://github.com/voynich-services/quotes-project.git
+git clone https://github.com/Voynich-Internship/quotes-project.git
 cd quotes-project
 ```
 

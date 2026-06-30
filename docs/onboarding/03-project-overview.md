@@ -5,7 +5,7 @@ sidebar_position: 3
 
 # Project Overview
 
-Welcome to the Voynich Services [Quotes project!](https://github.com/voynich-services/quotes-project) This document gives you a high-level overview of the architecture and folder structure of the sample full-stack project you'll be working on.
+Welcome to the Voynich Services [Quotes project!](https://github.com/Voynich-Internship/quotes-project) This document gives you a high-level overview of the architecture and folder structure of the sample full-stack project you'll be working on.
 
 ---
 
@@ -51,7 +51,7 @@ project-root/
 ### Backend (`backend/`)
 
 - FastAPI app source code, including API routes, data models, and business logic for managing quotes.
-- Requirements file (`pyporject.toml`) listing Python dependencies.
+- Requirements file (`pyproject.toml`) listing Python dependencies.
 - Environment variables configuration (`.env`) to store sensitive information like the MongoDB connection string.
 
 ### Frontend (`frontend/`)

@@ -87,6 +87,11 @@ const config: Config = {
           label: 'Onboarding',
         },
         {
+          to: '/docs/category/automation-challenge',
+          position: 'left',
+          label: 'Automation Challenge',
+        },
+        {
           href: 'https://github.com/voynich-services',
           label: 'GitHub',
           position: 'right',

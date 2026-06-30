@@ -135,13 +135,27 @@ Once both frontend and backend are running:
 
 ---
 
+## Bug Hunt
+
+The codebase has **5 intentional bugs** hidden across the backend and frontend. Before you implement any new feature, your first challenge is to find and fix all of them.
+
+Think of this as a real debugging session — something’s broken and it’s your job to track it down. Use the browser DevTools, read the server logs, and inspect MongoDB Compass. The [Debugging Guide](./07-Debugging-Guide.md) walks you through exactly how.
+
+Here are your hints — no solutions, just enough to point you in the right direction:
+
+- Something is off with the **Authors page** — it never loads what you’d expect.
+- The **Quotes page** might not be showing you everything that’s in the database.
+- One of the quotes will always display an **unknown author**, no matter what.
+- A **nav link** in the frontend isn’t routing to the right place.
+- The **test suite has a failing test** — run `pytest` and see what it tells you.
+
+Good luck. This is where the real learning happens.
+
+---
+
 ## Helpful Tips
 
 - Keep your virtual environment activated while working on the backend.
 - Open the browser developer tools and React DevTools to help debug frontend issues.
 - For backend debugging, PyCharm is recommended but feel free to use your preferred IDE.
 - Review the [Clean Code Guidelines](./06-Clean-Code-Guidelines.md) document for best practices on writing clean, maintainable code.
-
----
-
-Good luck, and don’t hesitate to reach out if you get stuck!

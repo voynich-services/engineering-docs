@@ -79,7 +79,7 @@ your-topic/
 ├── README.md        # Instructions
 └── examples/        # Sample files
 ```
-### 2. Blog Post
+### 3. Blog Post
 
 Create: manual_tasks/blog_posts/your-topic.md
 

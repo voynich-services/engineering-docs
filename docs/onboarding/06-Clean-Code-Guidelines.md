@@ -17,12 +17,9 @@ Before writing code, always set up automated code quality checks:
 
 ### Python Projects
 ```bash
-# Install pre-commit hooks
-pip install pre-commit
-pre-commit install
-
-# Ruff handles linting and formatting (replaces black, isort, flake8, and more)
-pip install ruff
+# Install pre-commit hooks and ruff as dev dependencies
+uv add --dev pre-commit ruff
+uv run pre-commit install
 ```
 
 ### React/JavaScript Projects
