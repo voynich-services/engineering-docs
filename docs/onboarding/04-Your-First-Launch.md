@@ -92,7 +92,7 @@ source .venv/bin/activate
 
 Run it using your IDE (PyCharm) or through the command:
 ```
-python app/main.py
+uv run python -m app.main
 ```
 
 You should see uvicorn start up with logs indicating the server is running at `http://localhost:8000`.

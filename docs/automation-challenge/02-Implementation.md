@@ -14,7 +14,7 @@ This guide helps you structure and document your automation solution professiona
 Create this folder for your solution:
 
 ```
-manual_tasks/solutions/your-topic/
+your-topic/
 ├── main.py              # Your solution
 ├── requirements.txt     # Your dependencies
 ├── README.md           # How to use it

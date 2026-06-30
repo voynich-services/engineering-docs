@@ -48,13 +48,11 @@ Welcome! You'll spend 2-3 days working on an automation challenge to practice Py
 
 ## 📋 Deliverables
 
-All deliverables must be submitted to the [manual_tasks repository](https://github.com/voynich-services/manual_tasks).
-
 You'll create three components:
 
 ### 1. Use Case Documentation
 
-Create: `manual_tasks/use_cases/your-topic.md`
+<!-- Create: `manual_tasks/use_cases/your-topic.md` -->
 
 ```markdown
 # [Process Name]
@@ -70,7 +68,7 @@ Create: `manual_tasks/use_cases/your-topic.md`
 ```
 ### 2. Python Solution
 
-Create: manual_tasks/solutions/your-topic/
+<!-- Create: manual_tasks/solutions/your-topic/ -->
 
 ```markdown
 your-topic/
@@ -81,7 +79,7 @@ your-topic/
 ```
 ### 3. Blog Post
 
-Create: manual_tasks/blog_posts/your-topic.md
+<!-- Create: manual_tasks/blog_posts/your-topic.md -->
 
 - Length: 800-1500 words
 - Focus: Business value (not technical details)
@@ -99,6 +97,7 @@ Create: manual_tasks/blog_posts/your-topic.md
 
 ---
 
+<!--
 ## 🚀 Submission Process
 
 ### 1. Clone the repository:
@@ -129,3 +128,4 @@ git push origin automation-challenge-[your-name]
 
 ### 5. Create Pull Request
 **PR Title:** Automation Challenge: [Your Topic]
+-->

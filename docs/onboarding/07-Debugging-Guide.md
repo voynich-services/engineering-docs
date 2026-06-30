@@ -45,7 +45,7 @@ The Network tab shows you every HTTP request the browser makes and what the serv
 
 Every time a request hits your backend, uvicorn prints a log line. When something crashes, Python prints a full stack trace.
 
-**Where to look:** The terminal where you ran `python app/main.py`.
+**Where to look:** The terminal where you ran `uv run python -m app.main`.
 
 **What to look for:**
 - `GET /api/quotes 200` — request succeeded
@@ -74,7 +74,7 @@ Compass lets you look directly inside your database — no code needed. This is 
 | Only a few quotes appear | Count the documents in `quotes` — how many are there? |
 | Tags are missing | Check the `tags` collection; does the `_id` match the `tag_ids` on the quote? |
 
-**Pro tip:** Run the db seeder first (`python app/scripts/db_feeder.py`) and then verify all three collections have data before debugging anything else.
+**Pro tip:** Run the db seeder first (`uv run python -m app.scripts.db_feeder`) and then verify all three collections have data before debugging anything else.
 
 ---
 

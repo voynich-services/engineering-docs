@@ -60,4 +60,4 @@ Pushes to the `gh-pages` branch of `voynich-services/engineering-docs`.
 ## External Repos Referenced
 
 - `Voynich-Internship/quotes-project` — the FARM stack sample app interns build features on
-- `voynich-services/manual_tasks` — where automation challenge submissions are submitted via PR
+<!-- - `voynich-services/manual_tasks` — where automation challenge submissions are submitted via PR -->
