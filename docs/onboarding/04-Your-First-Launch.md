@@ -135,6 +135,20 @@ Once both frontend and backend are running:
 
 ---
 
+## Seed the Database
+
+Before hunting for bugs, populate the database with sample data. The project ships a seeder script that fills the quotes, authors, and tags collections with realistic content:
+
+```bash
+uv run python -m app.scripts.db_feeder
+```
+
+Run this once from the `quotes-project` root with your virtual environment active. You can verify it worked by opening MongoDB Compass and checking that the `voynich_quotes` database has data in all three collections.
+
+Without seeded data some bugs will be invisible — for example, a bug that hides certain quotes only becomes apparent when there are quotes to hide.
+
+---
+
 ## Bug Hunt
 
 The codebase has **5 intentional bugs** hidden across the backend and frontend. Before you implement any new feature, your first challenge is to find and fix all of them.
