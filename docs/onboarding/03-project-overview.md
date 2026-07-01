@@ -29,7 +29,7 @@ project-root/
 
 ## How It Works
 
-1. The **React frontend** runs locally on your machine (usually at `http://localhost:3000`). It makes HTTP requests to the backend API to fetch, add, or delete quotes.
+1. The **React frontend** runs locally on your machine (usually at `http://localhost:5173`). It makes HTTP requests to the backend API to fetch, add, or delete quotes.
 
 2. The **FastAPI backend** runs locally (usually at `http://localhost:8000`) and handles requests from the frontend, performing business logic and interacting with the MongoDB database.
 
