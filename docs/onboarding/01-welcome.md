@@ -55,7 +55,7 @@ By following this documentation, you'll:
 
 ## 💬 Need Help?
 
-If you run into any issues, don’t hesitate to ask! You can reach out on [Slack](https://join.slack.com/t/voynichservices/shared_invite/zt-37hlnp6xx-STmErKT7cCG6TcxEihrf~w), feel free to message your mentor or anyone from the engineering team directly. We’re here to support you.
+If you run into any issues, don’t hesitate to ask! You can reach out on [Slack](https://join.slack.com/t/voynich-workspace/shared_invite/zt-42l767rcy-kePY07rwKvIq4I774qGL5g), feel free to message your mentor or anyone from the engineering team directly. We’re here to support you.
 
 
 ---
